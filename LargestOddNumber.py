@@ -15,4 +15,3 @@ while counter <= 2:
                     largest_odd_number = numb
 
 print("Largets odd number is " + largest_odd_number)
-
