@@ -13,4 +13,4 @@ class SelectionSort:
         return un_array
 
 
-print (SelectionSort ().unsorted_array)
+print (SelectionSort.selectionSort (SelectionSort.unsorted_array))
