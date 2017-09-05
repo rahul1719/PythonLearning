@@ -10,5 +10,4 @@ class BubbleSort:
                     un_array[ j ] = temp
         return un_array
 
-
 print (BubbleSort.bubbleSort (BubbleSort.unsorted_array))
