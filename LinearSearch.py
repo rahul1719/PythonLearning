@@ -1,8 +1,8 @@
 class Linear:
-    arr = [1, 2, 3, 49, 99, 4, 6, 17, 10]
-    key = 11
 
-    def search(self, arr, key):
+    def search(self):
+        arr = [1, 2, 3, 49, 99, 4, 6, 17, 10]
+        key = 11
         for i in range(len(arr)):
             if arr[i] == key:
                 return i
@@ -10,7 +10,7 @@ class Linear:
 
 
 linear = Linear()
-result = linear.search(linear.arr, linear.key)
+result = linear.search()
 if result != -1:
     print("Key present at index %d " % result)
 else:
